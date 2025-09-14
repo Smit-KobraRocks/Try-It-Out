@@ -1,0 +1,14 @@
+body {
+  min-width: 300px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+#product-image, #result-image {
+  max-width: 100%;
+  height: auto;
+}
+
+#loading {
+  margin-top: 10px;
+}

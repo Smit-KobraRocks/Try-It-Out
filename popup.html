@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>AI Virtual Try-On</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div id="content">
+    <h1>AI Virtual Try-On</h1>
+    <div id="product-container">
+      <p>Detected product:</p>
+      <img id="product-image" src="" alt="Product" />
+    </div>
+    <div>
+      <input type="file" id="user-photo" accept="image/*">
+    </div>
+    <button id="try-btn">Try It On</button>
+    <div id="loading" hidden>Loading...</div>
+    <div id="result-container" hidden>
+      <p>Result:</p>
+      <img id="result-image" src="" alt="Result" />
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
